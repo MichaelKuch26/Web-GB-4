@@ -1,0 +1,319 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-big {
+  margin: 0 auto;
+  width: 1600px;
+}
+
+.container-small {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+/* HEADER */
+
+.top__content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+}
+
+.left__part {
+  display: flex;
+  align-items: flex-end;
+  padding: 20px 760px 20px 230px;
+}
+
+.logo__link {
+  padding-right: 40px;
+}
+
+.button__mg,
+.button__menu,
+.button__user,
+.button__cart {
+  background: none;
+  border: none;
+  height: 28px;
+  cursor: pointer;
+  color: #e8e8e8;
+}
+
+.right__part {
+  display: flex;
+  align-items: flex-end;
+  padding: 26px 290px 20px 0px;
+}
+
+.button__menu,
+.button__user {
+  padding-right: 33px;
+}
+
+.men-top__img {
+  width: 800px;
+}
+
+/* TOP */
+
+.top__bc {
+  display: flex;
+  background-color: #f1e4e6;
+}
+
+.top {
+  margin-bottom: 65px;
+}
+
+.naming {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.naming__img {
+  margin-right: 16px;
+  margin-top: 290px;
+}
+
+.title {
+  margin-top: 290px;
+  color: #222;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.subtitle {
+  color: #222;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* GROUP ITEMS */
+
+.group__items {
+  margin-bottom: 96px;
+}
+
+.grid__gi_cart {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 360px);
+  justify-content: center;
+}
+
+.group__items-cart_one {
+  background: url(/Theme_4/seminar4/Task_3_Pink/img/gcart_img-one.png);
+  background-color: rgba(33, 22, 22, 0.7);
+  background-blend-mode: multiply;
+  width: 360px;
+  height: 260px;
+  text-align: center;
+}
+
+.group__items-cart_two {
+  background: url(/Theme_4/seminar4/Task_3_Pink/img/gcart_img-two.png);
+  background-color: rgba(33, 22, 22, 0.7);
+  background-blend-mode: multiply;
+  width: 360px;
+  height: 260px;
+  text-align: center;
+}
+
+.group__items-cart_three {
+  background: url(/Theme_4/seminar4/Task_3_Pink/img/gcart_img-three.png);
+  background-color: rgba(33, 22, 22, 0.7);
+  background-blend-mode: multiply;
+  width: 360px;
+  height: 260px;
+  text-align: center;
+}
+
+.group__items-cart_four {
+  background: url(/Theme_4/seminar4/Task_3_Pink/img/gcart_img-four.png);
+  background-color: rgba(33, 22, 22, 0.7);
+  background-blend-mode: multiply;
+  fill: rgba(33, 22, 22, 0.7);
+  width: auto;
+  height: 180px;
+  text-align: center;
+  grid-column: span 3;
+}
+
+.subtitle__white {
+  padding-top: 105px;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subtitle__pink {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subtitle__white_big {
+  padding-top: 65px;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* FETURED ITEMS */
+
+.fetured_items {
+  margin-bottom: 95px;
+}
+
+.foto_two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 420px;
+  background-color: #f7e4e2;
+}
+
+.subtitle__fetured {
+  color: #222;
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 6px;
+}
+
+.text__fetured {
+  text-align: center;
+  color: #9f9f9f;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+
+.fetured__items {
+  display: grid;
+  justify-content: center;
+  gap: 30px;
+  grid-template-columns: repeat(3, 360px);
+  margin-bottom: 50px;
+}
+
+.fetured__item {
+  background-color: #f8f8f8;
+}
+
+.subtitle__fetured_item {
+  padding: 25px 194px 13px 18px;
+  color: #000;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text__fetured_item {
+  padding: 0 29px 18px 17px;
+  color: #5d5d5d;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.price__fetured_item {
+  padding: 0 289px 20px 18px;
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.position__button-all-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all_product__link {
+  border: 1px solid #ff6a6a;
+  padding: 15px 39px;
+  color: #f26376;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* BOOTOM */
+
+.bootom__bonus-items {
+  background-color: #222224;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 104px 230px;
+}
+
+.bonus-item{
+  
+  width: 50%;
+  text-align: center;
+}
+
+.subtitle__bonus {
+  color: #fbfbfb;
+  margin-top: 28px;
+  font-family: Lato;
+  font-size: 19.96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.text__bonus {
+  color: #fbfbfb;
+
+  text-align: center;
+  font-family: Lato;
+  font-size: 13.972px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
